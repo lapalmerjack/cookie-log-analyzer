@@ -27,8 +27,7 @@ public class DateUtils {
             DateUtils.class);
 
     /**
-     * Parses a date string into a {@link LocalDate} object. The input date string must
-     * be in ISO 8601 format with an offset time zone (e.g., "2018-12-07T23:30:00+00:00").
+     * Parses a date string into a {@link LocalDate} object.
      * The method also checks if the parsed date is not in the future.
      *
      * @param date The date string to be parsed.
