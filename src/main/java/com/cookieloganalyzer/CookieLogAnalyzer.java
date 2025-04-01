@@ -48,15 +48,17 @@ public class CookieLogAnalyzer {
         FileReader fileReader = new FileReader(lineParser);
 
 
-        List<CookieLog> cookieLogs = fileReader.retrieveCookieRecordsFromFile(arguments.getFileName(), arguments.getDate());
+        List<CookieLog> cookieLogs = fileReader.retrieveCookieRecordsFromFile(
+                arguments.getFileName(), arguments.getDate());
 
         MostActiveCookieFinder mostActiveCookieFinder = new MostActiveCookieFinder();
-        List<String> mostActiveCookies = mostActiveCookieFinder.getMostActiveCookies(cookieLogs);
+        List<String> mostActiveCookies = mostActiveCookieFinder
+                .getMostActiveCookies(cookieLogs);
 
         if (mostActiveCookies.isEmpty()) {
             System.out.println("No active cookies found for date");
         } else {
-            mostActiveCookies .forEach(System.out::println);
+            mostActiveCookies.forEach(System.out::println);
         }
 
         LOGGER.info("Shutting down program");
