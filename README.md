@@ -36,8 +36,8 @@ Command line Parameters:
 
 Example for running the program:
 
-example input (Mac/Linux): java -cp "target/classes:target/dependency/*" com.cookieloganalyzer.CookieLogAnalyzer -f "cookie_log.csv" -d 2019-30-09
-example input (Windows): java -cp "target/classes;target/dependency/*" com.cookieloganalyzer.CookieLogAnalyzer -f "cookie_log.csv" -d 2019-30-09
+1. example input (Mac/Linux): java -cp "target/classes:target/dependency/*" com.cookieloganalyzer.CookieLogAnalyzer -f "cookie_log.csv" -d 2019-30-09
+2. example input (Windows): java -cp "target/classes;target/dependency/*" com.cookieloganalyzer.CookieLogAnalyzer -f "cookie_log.csv" -d 2019-30-09
 
 
 example-output: Xk9P3hFm2wRvLqZj
