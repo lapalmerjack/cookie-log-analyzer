@@ -32,8 +32,7 @@ public class FileReader {
     }
 
   /**
-   * This is a method which reads a file and then initializes a CookieRecord list, which will
-   * be used after selecting an operation
+   * This is a method which reads a file and then initializes a CookieRecord list
    *
    * @return The CookieRecord list used for further functionality
    */

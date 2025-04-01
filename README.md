@@ -24,9 +24,9 @@ Follow these steps to run the project locally:
 3. mvn clean install
 4. mvn javadoc:javadoc
    (On Mac/Linux)
-5. java -cp "target/classes:target/dependency/*" com.cookieloganalyzer.Main -f file_name  -d date
+5. java -cp "target/classes:target/dependency/*" com.cookieloganalyzer.CookieLogAnalyzer -f file_name  -d date
    (On Windows)
-   java -cp "target/classes;target/dependency/*" com.cookieloganalyzer.Main -f file_name  -d date
+   java -cp "target/classes;target/dependency/*" com.cookieloganalyzer.CookieLogAnalyzer -f file_name  -d date
 
 Once directions between 1 and 4 have been carried out, please repeat number five with different 
 filenames and dates in order to have different outcomes.
@@ -38,8 +38,8 @@ Command line Parameters:
 
 Example for running the program:
 
-example input (Mac/Linux): java -cp "target/classes:target/dependency/*" com.cookieloganalyzer.Main -f "cookie_log.csv" -d 2019-30-09
-example input (Windows): java -cp "target/classes;target/dependency/*" com.cookieloganalyzer.Main -f "cookie_log.csv" -d 2019-30-09
+example input (Mac/Linux): java -cp "target/classes:target/dependency/*" com.cookieloganalyzer.CookieLogAnalyzer -f "cookie_log.csv" -d 2019-30-09
+example input (Windows): java -cp "target/classes;target/dependency/*" com.cookieloganalyzer.CookieLogAnalyzer -f "cookie_log.csv" -d 2019-30-09
 
 
 example-output: Xk9P3hFm2wRvLqZj

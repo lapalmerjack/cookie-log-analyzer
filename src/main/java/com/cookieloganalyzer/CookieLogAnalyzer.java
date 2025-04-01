@@ -32,9 +32,9 @@ import java.util.List;
  * @version 1.0
  * @since 2024-01-30
  */
-public class Main {
+public class CookieLogAnalyzer {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CookieLogAnalyzer.class);
 
     public static void main(String[] args) throws IOException {
 
