@@ -23,10 +23,8 @@ Follow these steps to run the project locally:
 2. cd cookie-log-project
 3. mvn clean install
 4. mvn javadoc:javadoc
-   (On Mac/Linux)
-5. java -cp "target/classes:target/dependency/\*" com.cookieloganalyzer.CookieLogAnalyzer -f file_name  -d date
-   (On Windows)
-   java -cp "target/classes;target/dependency/\*" com.cookieloganalyzer.CookieLogAnalyzer -f file_name  -d date
+5.  (On Mac/Linux) java -cp "target/classes:target/dependency/\*" com.cookieloganalyzer.CookieLogAnalyzer -f file_name  -d date
+    (On Windows) java -cp "target/classes;target/dependency/\*" com.cookieloganalyzer.CookieLogAnalyzer -f file_name  -d date
 
 Once directions between 1 and 4 have been carried out, please repeat number five with different 
 filenames and dates in order to have different outcomes.
