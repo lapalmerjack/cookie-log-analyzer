@@ -38,7 +38,7 @@ public class DateUtilsTest {
 
     @Test
     void shouldThrowAnErrorWhenDateFromCommandLineIsNotValid() {
-        assertThrows(CommandLineDateNotValidException.class, () -> DateUtils.validateDateFromCommandLineParser("39-20-20T23:30:00+00:00"));
+        assertThrows(CommandLineDateNotValidException.class, () -> DateUtils.throwErrorIfDateIsNotCorrectFormat("39-20-20T23:30:00+00:00"));
 
     }
 

@@ -65,7 +65,7 @@ public class DateUtils {
      * @param date The date string to be validated.
      * @throws CommandLineDateNotValidException if the date string does not match the expected format.
      */
-    public static void validateDateFromCommandLineParser(String date) {
+    public static void throwErrorIfDateIsNotCorrectFormat(String date) {
         String regex = "^\\d{4}-\\d{2}-\\d{2}$";
         Pattern pattern = Pattern.compile(regex);
         if (!pattern.matcher(date).matches()) {

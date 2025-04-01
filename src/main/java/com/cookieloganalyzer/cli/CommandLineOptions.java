@@ -59,7 +59,7 @@ public class CommandLineOptions {
 
         }
 
-        DateUtils.validateDateFromCommandLineParser(date);
+        DateUtils.throwErrorIfDateIsNotCorrectFormat(date);
     }
 
 }
